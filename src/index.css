@@ -1,0 +1,97 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #000000;
+}
+
+.to-do-list{
+    padding-top: 4em;
+    color: #fff;
+}
+
+.add-task{
+    background-color: rgb(44, 220, 44);
+    border: none;
+    color: aliceblue;
+    font-size: 1.7rem;
+    padding: 11px 20px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+.add-task:hover{
+    opacity: 0.9;
+}
+
+.todo-input[type="text"]{
+    font-size: 1.6rem;
+    padding:10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+}
+
+.remove-button{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: #fff;
+    padding: 0.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.remove-button:hover{
+    opacity: 0.7;
+}
+
+.Higlight-button{
+    background-color: rgb(219, 255, 14);
+    border: none;
+    color: #573434;
+    padding: 0.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Higlight-button:hover{
+    background-color: rgb(255, 255, 0);
+    box-shadow: -1px -3px 39px 22px rgba(176,255,9,0.93);
+-webkit-box-shadow: -1px -3px 39px 22px rgba(176,255,9,0.93);
+-moz-box-shadow: -1px -3px 39px 22px rgba(176,255,9,0.93)
+}
+
+span{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+ol{
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+    color: #000000;
+}
+
+li{
+    font-size: 2rem;
+    padding: 20px;
+    background-color: rgba(224, 213, 213, 0.987);
+    border: 3px solid hsl(0, 0%, 85%, 0,75);
+    margin-bottom: 0.4rem;
+    margin-top: 10px;
+}
+li .tasks{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.higlighted{
+    background-color: #722121;
+}
+.Un-higlighted{
+    color: #000000;
+}
